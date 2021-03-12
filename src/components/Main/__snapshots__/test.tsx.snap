@@ -1,27 +1,70 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Main /> shold render the heading 1`] = `
+.c0 {
+  background-color: #f4f4f4;
+  color: #000;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 4rem;
+}
+
+.c1 {
+  width: 25rem;
+  margin-bottom: 2rem;
+}
+
+.c2 {
+  font-size: 4rem;
+}
+
+.c3 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.c4 {
+  margin-top: 2rem;
+  width: min(30rem,100%);
+}
+
 <main
-  class="styles__Wrapper-dzx1ao-0 daNyOe"
+  class="c0"
 >
   <img
     alt="Vercel"
-    class="styles__Logo-dzx1ao-1 dUetyB"
+    class="c1"
     src="/vercel.svg"
   />
   <h1
-    class="styles__Title-dzx1ao-2 fXIGei"
+    class="c2"
   >
     React Boilerplate
   </h1>
   <h2
-    class="styles__Subtitle-dzx1ao-3 eojGG"
+    class="c3"
   >
     A complete boilerplate
   </h2>
   <img
     alt="Aweti Mask"
-    class="styles__Illustration-dzx1ao-4 fCSVlw"
+    class="c4"
     src="AwetiMask.svg"
   />
 </main>
