@@ -26,46 +26,47 @@ exports[`<Main /> shold render the heading 1`] = `
 }
 
 .c1 {
-  width: 25rem;
-  margin-bottom: 2rem;
+  font-size: 4rem;
+  margin-bottom: 1rem;
 }
 
 .c2 {
-  font-size: 4rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 6rem;
 }
 
 .c3 {
-  font-size: 2rem;
-  font-weight: 400;
+  width: min(30rem,100%);
+  margin-bottom: 6rem;
 }
 
 .c4 {
-  margin-top: 2rem;
-  width: min(30rem,100%);
+  width: 10rem;
 }
 
 <main
   class="c0"
 >
-  <img
-    alt="Vercel"
-    class="c1"
-    src="/vercel.svg"
-  />
   <h1
-    class="c2"
+    class="c1"
   >
     React Boilerplate
   </h1>
   <h2
-    class="c3"
+    class="c2"
   >
-    A complete boilerplate
+    SSR . Precommit . Typescript . Tests
   </h2>
   <img
     alt="Aweti Mask"
-    class="c4"
+    class="c3"
     src="AwetiMask.svg"
+  />
+  <img
+    alt="Vercel"
+    class="c4"
+    src="/vercel.svg"
   />
 </main>
 `

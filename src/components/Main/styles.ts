@@ -13,21 +13,21 @@ export const Wrapper = styled.main`
   padding: 4rem;
 `
 
-export const Logo = styled.img`
-  width: 25rem;
-  margin-bottom: 2rem;
-`
-
 export const Title = styled.h1`
   font-size: 4rem;
+  margin-bottom: 1rem;
 `
 
 export const Subtitle = styled.h2`
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 400;
+  margin-bottom: 6rem;
 `
 
 export const Illustration = styled.img`
-  margin-top: 2rem;
   width: min(30rem, 100%);
+  margin-bottom: 6rem;
+`
+export const Logo = styled.img`
+  width: 10rem;
 `
